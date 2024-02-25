@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isSameValuef from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert-is-same-valuef@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-base-assert-is-same-valuef/tags). For example,
+
+```javascript
 import isSameValuef from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert-is-same-valuef@v0.0.1-esm/index.mjs';
 ```
 
@@ -118,7 +123,7 @@ out = isSameValuef( z1, z2 );
 <script type="module">
 
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32@esm/index.mjs';
-import isSameValuef from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert-is-same-valuef@v0.0.1-esm/index.mjs';
+import isSameValuef from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-assert-is-same-valuef@esm/index.mjs';
 
 var z1 = new Complex64( 5.0, 3.0 );
 var z2 = new Complex64( 5.0, 3.0 );
